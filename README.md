@@ -19,7 +19,7 @@ Execute os seguinte comando para construir e iniciar os containers da aplicaçã
 
 2. Abra dois terminais no container da aplicação Node:
 - ``docker container exec -it f1_app sh``
-  - Nesse container, inicie o servidor com os comandos ``npm i`` e `npm run devOne`
+  - Nesse container, instale as dependências e inicie o servidor com os comandos ``npm i`` e `npm run devOne`
 - ``docker container exec -it f1_app sh``
   - Nesse container, inicie o servidor com o comando `npm run devTwo`
 ---
