@@ -10,7 +10,7 @@ Execute os seguinte comando para construir e iniciar os containers da aplicaçã
 
 ---
 
-1. Inicie o docker-compose
+1. Inicie os container com o docker-compose
 
 ```sh
   docker-compose up -d
