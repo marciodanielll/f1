@@ -18,3 +18,8 @@ Execute os seguinte comando para construir e iniciar os containers da aplicaçã
 - `GET | http://localhost:3000/qualify/one`
 - `GET | http://localhost:3001/qualify/two`
 ---
+
+----
+Você pode contribuir para este projeto abrindo um pull request com sugestões de melhorias ou novas funcionalidades. Também pode abrir uma issue para relatar bugs e ajudar a corrigi-los.
+
+----
