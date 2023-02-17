@@ -23,8 +23,10 @@ Execute os seguinte comando para construir e iniciar os containers da aplicaçã
 - ``docker container exec -it f1_app sh``
   - Nesse container, inicie o servidor com o comando `npm run devTwo`
 
-Ao efetuar esse passo, o seu terminal deve estar parecido com algo assim:
+<p>Ao efetuar esse passo, o seu terminal deve estar parecido com algo assim:</p>
+
 ![Terminal dividido exibindo os 2 servidores](https://github.com/marciodanielll/f1/blob/lucas-barreto/public/Captura%20de%20Tela%202023-02-17%20%C3%A0s%2014.52.19.png)  
+
 ---
 
 3. Em um cliente como ThunderClient, Insomnia ou no próprio navegador, faça duas requisições:
