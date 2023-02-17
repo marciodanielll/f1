@@ -1,0 +1,7 @@
+{
+  "extends": "trybe-backend",
+  "rules": {
+    "sonarjs/no-duplicate-string": "off", 
+    "no-await-in-loop": "off"
+  }
+}

@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+  f1_app:
+    container_name: f1_app
+    image: node:16-alpine
+    volumes:
+      - .:/app
+    working_dir: /app
+    stdin_open: true
+    tty: true
+    command: sh
+    ports:
+      - 3000:3000
+      - 3001:3001
+    depends_on:
+      - f1_db
+    env_file:
+      - .app.env
+  f1_db:
+    container_name: f1_db
+    image: mysql:8.0
+    volumes:
+      - ./data:/var/lib/mysql
+      - ./sql:/docker-entrypoint-initdb.d
+    env_file:
+      - .db.env
+    ports:
+      - 3306:3306
+    
