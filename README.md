@@ -4,7 +4,7 @@
 # F1 🏁
 Entenda Node assíncrono como um treino de classificação da F1 🏎️💨.
 
-## Como usar no Docker
+## Como usar no Docker 🐳
 Execute os seguinte comando para construir e iniciar os containers da aplicação:
 
 ---
