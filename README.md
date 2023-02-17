@@ -21,7 +21,7 @@ Execute os seguinte comando para construir e iniciar os containers da aplicaçã
 - ``docker container exec -it f1_app sh``
   - Nesse container, instale as dependências e inicie o servidor com os comandos ``npm i`` e `npm run devOne`
 - ``docker container exec -it f1_app sh``
-  - Nesse container, inicie o servidor com o comando `npm run devTwo`
+  - Nesse container, inicie o segundo servidor com o comando `npm run devTwo`
 ---
 
 3. Em um cliente como ThunderClient, Insomnia ou no próprio navegador, faça duas requisições:
