@@ -1,7 +1,7 @@
 🧱🧱 **``EM CONSTRUÇÃO``** 🧱🧱
 
 # F1 🏁
-Entenda Node assíncrono como um treino de classificação da F1 🏎️💨
+Entenda Node assíncrono como um treino de classificação da F1
 
 ---
 ## Como usar com o Docker 🐳
