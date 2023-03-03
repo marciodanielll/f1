@@ -57,8 +57,6 @@ const getQualifyTwo = async () => {
     return lapTimeByDriver;
   });
 
-  // console.log(promises);
-
   const listTime = await Promise.all(promises);
 
   clearInterval(interval);
